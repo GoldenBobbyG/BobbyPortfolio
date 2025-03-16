@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Resume.css';
 
 const Resume = () => {
     return (
@@ -7,7 +8,7 @@ const Resume = () => {
         
         {/* Download Resume */}
         <div className="resume-download">
-        <a href="./assets/Resume.pdf" download>
+        <a href="/Resume.pdf" download>
             <button>Download Resume</button>
         </a>
         </div>

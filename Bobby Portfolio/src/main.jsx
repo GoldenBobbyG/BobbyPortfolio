@@ -5,7 +5,7 @@ import App from './App';
 import Error from './pages/Error';
 import AboutMe from './pages/AboutMe';
 import Resume from './pages/Resume';
-// import Portfolio from './pages/Portfolio';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
 const router = createBrowserRouter([
@@ -26,10 +26,10 @@ const router = createBrowserRouter([
         path: '/Resume',
         element: <Resume />,
       },
-      // {
-      //   path: '/Portfolio',
-      //   element: <Portfolio />,
-      // },
+      {
+        path: '/Portfolio',
+        element: <Portfolio />,
+      },
       
     ],
   },
