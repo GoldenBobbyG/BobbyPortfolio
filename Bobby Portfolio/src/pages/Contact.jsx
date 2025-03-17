@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/Contact.css';
 import { useState } from 'react';
 
@@ -14,15 +13,19 @@ function Form() {
         if (name === 'contactName') {
             setContactName(value);
         } else if (name === 'email') {
-            setEmail(value);        
-            alert('Please enter a valid email address.');
-            console.log('Form submitted');
+            setEmail(value);
         } else if (name === 'message') {
             setMessage(value);
         }
     };
+
     const handleFormSubmit = (e) => {
         e.preventDefault();
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            alert('Please enter a valid email address.');
+            return;
+        }
         console.log('Form submitted');
         alert(`Thank you for your message, ${contactName}!`);
         setContactName('');
@@ -32,9 +35,7 @@ function Form() {
 
     return (
         <div className="container text-center">
-            <h1>
-                Contact Me {contactName} {email} {message}
-            </h1>
+            <h1>Contact Me</h1>
             <form className="form" onSubmit={handleFormSubmit}>
                 <input
                     value={contactName}
@@ -54,18 +55,14 @@ function Form() {
                     value={message}
                     name="message"
                     onChange={handleInputChange}
-                    type="text"
                     placeholder="Message"
                 />
-                <button type="submit">
-                    Submit
+                <button type="submit">Submit
+                    
                 </button>
             </form>
-            </div>
+        </div>
     );
-    
-
-
 }
 
 export default Form;
