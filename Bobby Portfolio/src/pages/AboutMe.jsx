@@ -1,11 +1,15 @@
 import React from "react";
 import "../styles/AboutMe.css";
+import mainphoto from "../assets/oneilike.jpg";
 //add profile image//
 
 function AboutMe() {
     return (
         <div className="about-me">
             <h2>About Me</h2>
+            <div>
+                <img src={mainphoto} alt="Robert Strickland" class="img-thumbnail img-circle img-responsive" />
+            </div>
             <p>My name is Robert Strickland and I am a Full Stack Developer. I have a background in the culinary arts and have been working 
                 in the restaurant industry for over 20 years. I have always had a passion for technology and have been teaching myself how 
                 to code for the past year. I am currently enrolled in the University of Central Florida's 

@@ -1,7 +1,7 @@
 .about-me-container {
-    background-color: red;
+    background-color: var(--seasalt);
     padding: 20px;
-    color: white;
+    color: var(--jet);
     font-family: Arial, sans-serif;
 }
 
@@ -15,4 +15,9 @@
 .about-me-title::before {
     content: '⭐';
     margin-right: 10px;
+}
+.img-thumbnail {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
 }
