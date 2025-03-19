@@ -9,7 +9,7 @@ const Resume = () => {
             {/* Download Resume */}
             <div className="resume-download">
                 <a href="/Resume.pdf" download>
-                    <button className="download-button">Download Resume</button>
+                    <button className="btn btn-primary download-button">Download Resume</button>
                 </a>
             </div>
 

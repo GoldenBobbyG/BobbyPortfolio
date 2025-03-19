@@ -4,7 +4,7 @@ import '../styles/footer.css';
 
 const styles = {
     footer: {
-        backgroundColor: '#f8f9fa',
+        backgroundColor: 'var(--jet)',
         padding: '20px',
         textAlign: 'center',
     },
@@ -15,11 +15,11 @@ const styles = {
     },
     icon: {
         margin: '0 10px',
-        color: '#007bff',
+        color: 'var(--rojo)',
         textDecoration: 'none',
     },
     text: {
-        color: '#6c757d',
+        color: 'var(--seasalt)',
     },
 };
 
