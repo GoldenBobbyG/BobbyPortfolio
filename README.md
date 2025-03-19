@@ -14,6 +14,11 @@ Follow the link below.
 ## Contribution
 Please dont.
 
+## Snippet
+
+## Notes
+Used Copilot for erros help from tutor and referenced KenKuffler porfolio layout. 
+
 ## Tests
 none
 
