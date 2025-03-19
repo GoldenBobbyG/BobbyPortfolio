@@ -15,6 +15,7 @@ Follow the link below.
 Please dont.
 
 ## Snippet
+![image](https://github.com/user-attachments/assets/ae9ff7c3-81ee-4afb-9cf2-9c88f42abbd9)
 
 ## Notes
 Used Copilot for erros help from tutor and referenced KenKuffler porfolio layout. 
