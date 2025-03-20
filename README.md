@@ -10,6 +10,8 @@ none
 
 ## Usage
 Follow the link below.
+https://monumental-nougat-b86e04.netlify.app/
+
 
 ## Contribution
 Please dont.
